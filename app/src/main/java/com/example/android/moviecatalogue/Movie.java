@@ -5,8 +5,8 @@ import android.os.Parcelable;
 
 public class Movie implements Parcelable {
 
-    private int photo, rating, budget, revenue, runtime;
-    private String name, description, release_date, genre;
+    private int photo, rating, budget, revenue;
+    private String name, description, release_date, genre, runtime;
 
     public int getPhoto() {
         return photo;
@@ -40,11 +40,11 @@ public class Movie implements Parcelable {
         this.revenue = revenue;
     }
 
-    public int getRuntime() {
+    public String getRuntime() {
         return runtime;
     }
 
-    public void setRuntime(int runtime) {
+    public void setRuntime(String runtime) {
         this.runtime = runtime;
     }
 
@@ -92,7 +92,7 @@ public class Movie implements Parcelable {
         dest.writeInt(this.rating);
         dest.writeInt(this.budget);
         dest.writeInt(this.revenue);
-        dest.writeInt(this.runtime);
+        dest.writeString(this.runtime);
         dest.writeString(this.name);
         dest.writeString(this.description);
         dest.writeString(this.release_date);
@@ -107,7 +107,7 @@ public class Movie implements Parcelable {
         this.rating = in.readInt();
         this.budget = in.readInt();
         this.revenue = in.readInt();
-        this.runtime = in.readInt();
+        this.runtime = in.readString();
         this.name = in.readString();
         this.description = in.readString();
         this.release_date = in.readString();

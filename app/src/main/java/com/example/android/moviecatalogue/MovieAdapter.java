@@ -53,6 +53,7 @@ public class MovieAdapter extends BaseAdapter {
         return view;
     }
 
+
     private class ViewHolder{
         private TextView txtName, txtRating, txtGenre;
         private ImageView imgPhoto;
