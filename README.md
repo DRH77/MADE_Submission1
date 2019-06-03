@@ -3,5 +3,5 @@ Movie Catalogue App Submission1
 
 Aplikasi ini berisi tentang list film yang sedang tayang di bioskop
 
-NOTE : Jadikan project saya ini sebagai referensi dan tidak melakukan plagiarisme atau hanya salin code secara utuh. Karena ini akan merugikan Anda sendiri dan tidak belajar apa-apa.
+NOTE : Buatlah project saya ini hanya sebagai referensi. Dimohon untuk tidak menjiplak karena anda tidak akan dapat ilmu dari sini.
 Jaga kejujuran dan integritas sebagai seorang Programmer dan Developer.
